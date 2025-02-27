@@ -1,0 +1,12 @@
+{
+    "entryPoints": ["src/resources/**/**/typedoc.{ts,tsx}"],
+    "entryPointStrategy": "expand",
+    "out": "docs",
+    "name": "Project",
+    "categorizeByGroup": true,
+    "categoryOrder": ["Client", "Server", "*"],
+    "defaultCategory": "Other",
+    "excludePrivate": true,
+    "logLevel": "Verbose",
+    //"customJs": "typedoc-theme.js"
+}
